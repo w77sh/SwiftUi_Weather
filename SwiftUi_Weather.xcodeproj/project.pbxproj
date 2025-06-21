@@ -29,6 +29,7 @@
 		7E98DBD22E077220008DDD42 /* WeatherDaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDaysView.swift; sourceTree = "<group>"; };
 		7E98DBD42E0772C7008DDD42 /* MainWatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWatherView.swift; sourceTree = "<group>"; };
 		7E98DBD82E077961008DDD42 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		7E98DBDA2E077DC0008DDD42 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 			children = (
 				7E98DBBF2E07596C008DDD42 /* SwiftUi_WeatherApp.swift */,
 				7E98DBC12E07596C008DDD42 /* ContentView.swift */,
+				7E98DBDA2E077DC0008DDD42 /* README.md */,
 				7E98DBCD2E07712B008DDD42 /* Views */,
 				7E98DBC32E07596F008DDD42 /* Assets.xcassets */,
 				7E98DBC52E07596F008DDD42 /* Preview Content */,
