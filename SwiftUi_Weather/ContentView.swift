@@ -8,17 +8,43 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State  var isNight = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack{
+            BackgroundView(topColor: isNight ? .black : .blue, bottomColor: .gray)
+            VStack{
+                CityNameView(cityName: "Baghdad, Aladamyah")
+               
+                VStack(spacing: 10){
+                    MainWatherView(isNight: $isNight)
+                }
+                .padding(.bottom, 40)
+                
+                
+                Spacer()
+               
+                HStack(spacing: 20){
+                    ForEach(0..<5){ index in
+                        WeatherDaysView(dayOfWeek: "TUE",
+                                       imageName: "cloud.sun.fill",
+                                       temperature: 29)
+                    }
+                }
+                Spacer()
+                
+                WeatherButton(title: "Change Day Time", textColor: .blue, backgroundColor: .white,isNight: $isNight)
+                
+                Spacer()
+                
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+
+
+
