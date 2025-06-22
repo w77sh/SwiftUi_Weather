@@ -12,7 +12,9 @@ struct ContentView: View {
     @State  var isNight = false
     var body: some View {
         ZStack{
-            BackgroundView(topColor: isNight ? .black : .blue, bottomColor: .gray)
+           
+            BackgroundView(isNight: $isNight)
+           
             VStack{
                 CityNameView(cityName: "Baghdad, Aladamyah")
                
