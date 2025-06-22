@@ -15,7 +15,7 @@ A beautifully designed iOS Weather App built using **SwiftUI**. The app displays
 - Swift 5
 - SwiftUI
 - Xcode
-- Weather API (e.g., OpenWeatherMap) *(optional if you added real data)*
+- Weather API (**Soon**)
 
 ## 🖼️ Screenshots
 
@@ -23,7 +23,7 @@ A beautifully designed iOS Weather App built using **SwiftUI**. The app displays
 |----------|------------|
 | ![Day Screenshot](Screenshots/light.png) | ![Night Screenshot](Screenshots/dark.png) |
 
-*(Replace these with your actual screenshots)*
+
 
 ## 📦 Installation
 
