@@ -83,9 +83,9 @@
 			children = (
 				7E98DBCE2E077142008DDD42 /* CityNameView.swift */,
 				7E98DBD42E0772C7008DDD42 /* MainWatherView.swift */,
-				7E98DBD02E0771B7008DDD42 /* BackgroundView.swift */,
 				7E98DBD82E077961008DDD42 /* WeatherButton.swift */,
 				7E98DBD22E077220008DDD42 /* WeatherDaysView.swift */,
+				7E98DBD02E0771B7008DDD42 /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
