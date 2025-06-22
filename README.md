@@ -29,5 +29,6 @@ A beautifully designed iOS Weather App built using **SwiftUI**. The app displays
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/weather-swiftui-app.git
-   cd weather-swiftui-app
+   git clone https://github.com/w77sh/SwiftUi_Weather.git
+   
+   cd SwiftUi_Weather
