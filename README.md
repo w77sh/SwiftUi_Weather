@@ -21,7 +21,7 @@ A beautifully designed iOS Weather App built using **SwiftUI**. The app displays
 
 | Day Mode | Night Mode |
 |----------|------------|
-| ![Day Screenshot](Screenshots/day.png) | ![Night Screenshot](Screenshots/night.png) |
+| ![Day Screenshot](Screenshots/light.png) | ![Night Screenshot](Screenshots/dark.png) |
 
 *(Replace these with your actual screenshots)*
 
